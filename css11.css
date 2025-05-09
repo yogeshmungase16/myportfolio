@@ -152,7 +152,7 @@ a {
 } */
 .introimg {
     width: 20rem;
-    height: 15rem;
+    height: 30rem;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
@@ -160,11 +160,14 @@ a {
 }
 
 .introimg:hover {
-    width: 25.75rem; /* 300px équivaut à 18.75rem */
-    height: 19.75rem;
+    width: 22.75rem; /* 300px équivaut à 18.75rem */
+    height: 32.75rem;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    /* box-shadow:  15px 40px rgba(247, 1, 1, 0.925); */
+    
+        box-shadow: 15px 40px 20px rgba(247, 1, 1, 0.925);
+    
 }
 
 /* About Section */
