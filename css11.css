@@ -150,25 +150,39 @@ a {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 } */
-.introimg {
+/* .introimg {
     width: 20rem;
     height: 30rem;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-    transition: all 0.3s ease; /* Ajout pour une animation fluide */
-}
+    transition: all 0.3s ease; 
+} */
 
-.introimg:hover {
-    width: 22.75rem; /* 300px équivaut à 18.75rem */
+/* .introimg:hover {
+    width: 22.75rem;
     height: 32.75rem;
     border-radius: 50%;
     overflow: hidden;
-    /* box-shadow:  15px 40px rgba(247, 1, 1, 0.925); */
+
     
         box-shadow: 15px 40px 20px rgba(247, 1, 1, 0.925);
     
+} */
+.introimg {
+    width: 20rem;
+    height: 31rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
 }
+
+.introimg:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 20px 40px rgba(247, 1, 1, 0.7); /* Balanced shadow */
+}
+
 
 /* About Section */
 .about {
@@ -259,7 +273,7 @@ a {
 }
 .div11  {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    /* grid-template-columns: repeat(2, 1fr); Creates two equal columns */
     gap: 20px; /* Adds space between columns */
 }
 
