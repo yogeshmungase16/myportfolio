@@ -274,7 +274,7 @@ a {
 .div11  {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); Creates two equal columns */
-    gap: 20px; /* Adds space between columns */
+    gap:10px; /* Adds space between columns */
 }
 
 .skills li, .tools li {
